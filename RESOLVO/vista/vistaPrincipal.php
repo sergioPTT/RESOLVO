@@ -125,7 +125,7 @@
 
       <div class="flex items-center max-w-8">
         <img src="./assets/img/resolvo.png" alt="Logo">
-        <span class="font-bold text-xl text-white ml-2">RESOLVO!</span>
+        <span class="font-bold text-xl text-white ml-2">RESOLVO!!!!!!!!!</span>
       </div>
 
       <div class="flex space-x-4 pl-48">
