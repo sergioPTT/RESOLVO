@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1400px;
+  /* margin: auto; */
+}
+
+.color-acento {
+  color: #1a328e;
+}
+
+header {
+  background-color: #10182f;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+header .logo {
+  margin: 0;
+  padding: 32px 12px;
+  font-weight: bold;
+  color: white;
+  font-size: 2.6em;
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 16pt;
+}
+
+/* header a:hover {
+  color: #1a328e;
+} */
+
+header .container {
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+header nav {
+  flex-direction: row;
+  padding-bottom: 0;
+  padding-right: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h2 {
+  margin-top: 0;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #cc5500;
+}
+
+nav a {
+  text-decoration: none; /* Elimina el subrayado predeterminado */
+  color: white; /* Color del texto */
+  position: relative; /* Necesario para posicionar el subrayado */
+  display: inline-block; /* Permite que el enlace tenga dimensiones */
+}
+
+/* Estilo del subrayado */
+nav a::after {
+  content: ""; /* Añade un contenido vacío */
+  position: absolute; /* Lo coloca sobre el enlace */
+  bottom: 0; /* Lo coloca justo debajo del texto */
+  left: 0; /* Alinea el subrayado con el enlace */
+  width: 100%; /* Hace que el subrayado sea del mismo ancho que el enlace */
+  height: 2px; /* Grosor del subrayado */
+  background-color: transparent; /* Color del subrayado (inicialmente transparente) */
+  transition: background-color 0.3s ease; /* Transición suave del color */
+}
+
+/* Estilo del subrayado al pasar el ratón por encima */
+nav a:hover::after {
+  background-color: white; /* Cambia el color del subrayado a blanco */
+}

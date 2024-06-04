@@ -1,0 +1,17 @@
+.tituloRegister {
+  font-size: 85pt;
+  font-family: revert-layer;
+  color: #1f57f1;
+}
+
+
+.errorMensaje {
+  color: red;
+}
+
+.bordeRojo {
+  border: 3px solid red;
+}
+.bordeVerde {
+  border: 3px solid #49ab49;
+}
